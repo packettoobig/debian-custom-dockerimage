@@ -8,7 +8,7 @@ container="debian"
 containerversion='latest'
 containerfullname="${container}_${containerversion}_${randomstring}"
 containerpath="$container:$containerversion"
-containerhostname="docker-$container-container-$randomstring"
+containerhostname="container-$container-$randomstring"
 #
 # SCRIPT
 #
