@@ -1,4 +1,4 @@
-# system-tools
+# debian-custom-dockerimage
 Custom docker script and docker image for debian. Image is autobuilt when repo is updated.
 
 The script can be used as-is on a sudo-enabled machine (if docker is installed of course).
