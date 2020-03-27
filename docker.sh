@@ -22,7 +22,7 @@ read -p "Do you wish to remove all docker containers and local data ? (y/N) " RE
 if [ "$RESP" = "y" ]; then
   echo -e "Removing everything ... \n"
   sudo docker container stop $(sudo docker container ls -aq)
-  sudo docker container prune -f
+  sudo docker system prune -a -f
 else
   echo -e "Exiting without removing anything \n"
 fi
