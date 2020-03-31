@@ -16,6 +16,7 @@ echo "##########################################################################
 echo "Running a new $container container version $containerversion interactively"
 echo "####################################################################################################"
 sleep $sleeptime
+echo "Lauching $containerhostname"
 sudo docker run --name $containerfullname -h $containerhostname -it $containerpath /bin/bash
 
 read -p "Do you wish to remove all docker containers and local data ? (y/N) " RESP
