@@ -14,7 +14,7 @@ The *docker.sh* script can be used as-is on a sudo-enabled machine (if docker is
 
 Once you have docker, just :
 
-	git clone https://github.com/pilbbq/debian-custom-dockerimage.git
+	git clone git@github.com:pilbbq/debian-custom-dockerimage.git
 	cd debian-custom-dockerimage
 	./docker.sh
 
