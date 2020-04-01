@@ -10,7 +10,13 @@
 2. Customize the [.bashrc](https://raw.githubusercontent.com/pilbbq/debian-custom-dockerimage/master/.bashrc)  to have a recognisable prompt like this : ![Prompt](images/Prompt.png) 
 
 ## How to use
-The *docker.sh* script can be used as-is on a sudo-enabled machine (if docker is installed of course), see https://get.docker.com/ for info about that.
+The *docker.sh* script can be used as-is on a sudo-enabled machine (if docker is installed of course), see [https://get.docker.com/](https://get.docker.com/)  for info about that.
+
+Once you have docker, just :
+
+	git clone https://github.com/pilbbq/debian-custom-dockerimage.git
+	cd debian-custom-dockerimage
+	./docker.sh
 
 ## Misc
-Image is autobuilt when there is a master commit in this repo.
+Image is built everytime there is a commit to this repo.
