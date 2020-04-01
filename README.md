@@ -18,4 +18,5 @@ Once you have docker, just :
 	./docker.sh
 
 ## Misc
-Image is built everytime there is a commit to this repo.
+Image is built everytime there is a commit to this repo.<br/>
+You can see the latest builds here : [https://hub.docker.com/repository/docker/pilbbq/debian/timeline](https://hub.docker.com/repository/docker/pilbbq/debian/timeline)
