@@ -10,7 +10,7 @@
 
 ## How to use
 The *docker.sh* script can be used as-is on a sudo-enabled machine running bash.<br/>
-You will of course need docker to be installed. Please check out [https://get.docker.com/](https://get.docker.com/) for info about that.
+You will of course need docker to be installed. Please refer to [https://get.docker.com/](https://get.docker.com/) for information on this subject.
 
 Once you have docker, just :
 
