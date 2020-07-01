@@ -19,8 +19,8 @@ sleep $sleeptime
 echo "Lauching $containerhostname"
 sudo docker run --name $containerfullname -h $containerhostname -it $containerpath /bin/bash
 
-read -p "Do you wish to remove all docker containers and local data ? (y/N) " RESP
-if [ "$RESP" = "y" ]; then
+read -p "Do you wish to remove all docker containers and local data ? [y/N] " RESP
+if [ "$RESP" = "y" ] || [ "$RESP" = "yes" ]; then
   echo -e "Removing everything ... \n"
   sudo docker container stop $(sudo docker container ls -aq)
   sudo docker system prune -a -f
