@@ -4,7 +4,7 @@
 # PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
 
 # Custom one
-PS1='\[\e[32m\][\[\e[m\]\[\e[36;1m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[92m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[0;0m\]🐳$'
+PS1='\[\e[32m\][\[\e[m\]\[\e[36;1m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[92m\]\h\[\e[m\]:\[\e[37m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[0;0m\]🐳$'
 
 # Enable colors
 export LS_OPTIONS='--color=auto'
