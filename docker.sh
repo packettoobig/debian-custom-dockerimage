@@ -8,7 +8,7 @@ sleeptime=0
 container="debian"
 containerversion='latest'
 containerfullname="${container}_${containerversion}_${randomstring}"
-containerpath="pilbbq/$container:$containerversion"
+containerpath="packettoobig/$container:$containerversion"
 containerhostname="container-$container-$randomstring"
 
 #

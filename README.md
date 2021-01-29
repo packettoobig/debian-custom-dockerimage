@@ -1,11 +1,11 @@
 # debian-custom-dockerimage
 
 ## Useful Links
-**Image Location :** [https://hub.docker.com/r/pilbbq/debian](https://hub.docker.com/r/pilbbq/debian)<br/>
+**Image Location :** [https://hub.docker.com/r/packettoobig/debian](https://hub.docker.com/r/packettoobig/debian)<br/>
 **Repo Location :** [https://github.com/packettoobig/debian-custom-dockerimage](https://github.com/packettoobig/debian-custom-dockerimage)
 
 ## Diff with original debian
-1.  Install a few packages (See Dockerfile in [Github](https://raw.githubusercontent.com/packettoobig/debian-custom-dockerimage/master/Dockerfile) or in [Docker Hub](https://hub.docker.com/r/pilbbq/debian/dockerfile))
+1.  Install a few packages (See Dockerfile in [Github](https://raw.githubusercontent.com/packettoobig/debian-custom-dockerimage/master/Dockerfile) or in [Docker Hub](https://hub.docker.com/r/packettoobig/debian/dockerfile))
 2. Customize the [.bashrc](https://raw.githubusercontent.com/packettoobig/debian-custom-dockerimage/master/.bashrc)  to have a recognisable prompt like this : ![Prompt](https://github.com/packettoobig/debian-custom-dockerimage/raw/master/images/Prompt.png) 
 
 ## How to use
@@ -14,10 +14,10 @@ You will of course need docker to be installed. Please refer to [https://get.doc
 
 Once you have docker, just :
 
-	git clone https://github.com/pilbbq/debian-custom-dockerimage.git
+	git clone https://github.com/packettoobig/debian-custom-dockerimage.git
 	cd debian-custom-dockerimage
 	./docker.sh
 
 ## Misc
 Image is built everytime there is a commit to this repo.<br/>
-You can see the latest builds here : [https://hub.docker.com/r/pilbbq/debian/builds](https://hub.docker.com/r/pilbbq/debian/builds)
+You can see the latest builds here : [https://hub.docker.com/r/packettoobig/debian/builds](https://hub.docker.com/r/packettoobig/debian/builds)
