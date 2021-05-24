@@ -19,7 +19,7 @@ echo "Running a new $container container version $containerversion interactively
 echo "####################################################################################################"
 sleep $sleeptime
 echo "Lauching $containerhostname"
-sudo docker run --name $containerfullname -h $containerhostname \
+sudo docker run --rm --name $containerfullname -h $containerhostname \
 	-it $containerpath /bin/bash
 
 sudo docker system df | awk '{print $1,$4}' | column -t
